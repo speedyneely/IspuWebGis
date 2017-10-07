@@ -9,7 +9,8 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
-
+import { TasksContainerComponent } from './components/tasks-container/tasks-container.component';
+import { PointsContainerComponent } from './components/points-container/points-container.component';
 import { EsriLoaderModule } from 'angular-esri-loader';
 import { EsriMapService } from './components/esri-map/esri-map.service';
 import { EsriMapComponent } from './components/esri-map/esri-map.component';
@@ -21,7 +22,9 @@ import { EsriMapComponent } from './components/esri-map/esri-map.component';
         NavMenuComponent,
         CounterComponent,
         FetchDataComponent,
-        HomeComponent
+        HomeComponent,
+        TasksContainerComponent,
+        PointsContainerComponent
     ],
     imports: [
         CommonModule,

@@ -1,0 +1,20 @@
+.footer-container {
+    background: ghostwhite;
+    box-shadow: 4px 0px 5px #888888;
+}
+
+.footer {
+    padding: 15px;
+}
+
+.points-list {
+    max-height: 120px;
+    overflow-y: scroll;
+}
+
+.btn {
+    text-align: center;
+    width: 67%;
+    margin: 0 7px 7px;
+    padding: 6px 2px;
+}
