@@ -1,33 +1,4 @@
 ﻿.esri-view {
     width: 100%;
-}
-
-@media (min-height: 250px) {
-    .esri-view {
-        min-height: 200px;
-    }
-}
-
-@media (min-height: 550px) {
-    .esri-view {
-        min-height: 500px;
-    }
-}
-
-@media (min-height: 720px) {
-    .esri-view {
-        min-height: 620px;
-    }
-}
-
-@media (min-height: 1024px) {
-    .esri-view {
-        min-height: 920px;
-    }
-}
-
-@media (min-height: 1360px) {
-    .esri-view {
-        min-height: 1250px;
-    }
+    min-height: 100%;
 }

@@ -1,15 +1,15 @@
 <div class='container-fluid'>
     <div class='row'>
-        <div class='col-sm-3'>
+        <div class='col-sm-3 col-left'>
             <tasks-container></tasks-container>
         </div>
         <div class='col-sm-9 body-content'>
             <div class="container-fluid">
-                <div class="row">
+                <div class="row" [style.height.px]="mapInnerHeight">
                     <esri-map [center]="center" (centerChange)="centerChange($event)" [(points)]="points"></esri-map>
                 </div>
                 <div class="row">
-                    <points-container [(points)]="points"></points-container>
+                    <points-container id="points-container" [(points)]="points"></points-container>
                 </div>
             </div>
         </div>
